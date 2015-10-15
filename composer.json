@@ -1,0 +1,25 @@
+{
+    "name": "martellienrico/itunes-m3u",
+    "description": "Transform and export an iTunes playlist into a m3u playlist.",
+    "keywords": ["playlist", "m3u", "itunes"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enrico Martelli",
+            "email": "mrcnrt95e30@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MartelliEnrico\\ItunesToM3u\\": "src/"
+        }
+    },
+    "require": {
+        "rodneyrehm/plist": "^2.0",
+        "league/flysystem": "^1.0",
+        "symfony/console": "^2.7"
+    },
+    "bin": [
+        "itunes-m3u"
+    ]
+}
